@@ -1,7 +1,8 @@
 # Dust.MinCore
 
 搭建了一个小型 WebApi 框架,满足基本需求
-
+![image](https://images.cnblogs.com/cnblogs_com/SuperDust/1945742/t_210311093115image_1.png)
+![image](https://images.cnblogs.com/cnblogs_com/SuperDust/1945742/t_210311093139image_2.png)
 组件模块：
 
 - [x] 使用 Swagger 做 api 文档；
@@ -12,3 +13,4 @@
 - [x] 使用 Serilog 日志框架；
 - [x] 使用 FluentValidation 对象验证 ✨；
 - [x] 使用 FreeSql ORM 框架支持 数据库`读写分离`和多库操作 ✨;
+
