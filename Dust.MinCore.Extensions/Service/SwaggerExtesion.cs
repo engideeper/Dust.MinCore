@@ -25,15 +25,12 @@ namespace Dust.MinCore.Extensions
                 foreach (var file in files)
                 {
                     c.IncludeXmlComments(file, true);
-                    if (file.Contains("ShenNius.Share.Models.xml"))
-                    {
-                        c.IncludeXmlComments(file);
-                    }
+                    //if (file.Contains("Dust.MinCore.Models.xml"))
+                    //{
+                    //    c.IncludeXmlComments(file);
+                    //}
                 }
-                var baseModelPath = AppContext.BaseDirectory;
-                var xmlModelPath = Path.Combine(basePath, "Dust.MinCore.Models.xml");
-                //这个就是Model层的xml文件名
-                c.IncludeXmlComments(xmlModelPath);
+
                 c.CustomOperationIds(apiDesc =>
                 {
                     return apiDesc.TryGetMethodInfo(out MethodInfo methodInfo) ? methodInfo.Name : null;
