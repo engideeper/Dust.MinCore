@@ -1,0 +1,99 @@
+2021-03-09 15:36:26.992 +08:00 [INF] Starting web host
+2021-03-09 15:42:47.197 +08:00 [INF] Starting web host
+2021-03-09 15:43:01.004 +08:00 [INF] HTTP GET /index.html responded 200 in 201.8842 ms
+2021-03-09 15:43:01.398 +08:00 [INF] HTTP GET /favicon-16x16.png responded 200 in 19.2937 ms
+2021-03-09 15:43:01.500 +08:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 67.6123 ms
+2021-03-09 15:43:37.183 +08:00 [INF] Starting web host
+2021-03-09 15:43:54.295 +08:00 [INF] Starting web host
+2021-03-09 15:45:02.682 +08:00 [INF] Starting web host
+2021-03-09 15:53:22.463 +08:00 [INF] Starting web host
+2021-03-09 15:55:53.395 +08:00 [INF] Starting web host
+2021-03-09 15:55:57.955 +08:00 [INF] HTTP GET /index.html responded 200 in 185.4935 ms
+2021-03-09 15:55:58.300 +08:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 75.8985 ms
+2021-03-09 15:56:03.338 +08:00 [ERR] 测试
+2021-03-09 15:56:03.426 +08:00 [ERR] No service for type 'Dust.MinCore.Server.IUserInfoServer' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinder.BindModelAsync(ModelBindingContext bindingContext)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2021-03-09 15:56:03.536 +08:00 [ERR] HTTP GET /Home responded 500 in 245.8812 ms
+2021-03-09 15:58:01.050 +08:00 [INF] Starting web host
+2021-03-09 15:58:24.699 +08:00 [INF] HTTP GET /index.html responded 200 in 157.7294 ms
+2021-03-09 15:58:24.932 +08:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 62.2005 ms
+2021-03-09 15:59:21.842 +08:00 [INF] Starting web host
+2021-03-09 16:02:11.547 +08:00 [INF] Starting web host
+2021-03-09 16:02:15.822 +08:00 [INF] HTTP GET /index.html responded 200 in 181.9340 ms
+2021-03-09 16:02:16.133 +08:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 76.9478 ms
+2021-03-09 16:02:20.621 +08:00 [ERR] 测试
+2021-03-09 16:02:20.705 +08:00 [ERR] No service for type 'Dust.MinCore.Server.IUserInfoServer' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinder.BindModelAsync(ModelBindingContext bindingContext)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2021-03-09 16:02:20.816 +08:00 [ERR] HTTP GET /Home responded 500 in 216.5366 ms
+2021-03-09 16:02:43.816 +08:00 [INF] Starting web host
+2021-03-09 16:07:11.720 +08:00 [INF] Starting web host
+2021-03-09 16:12:53.594 +08:00 [INF] Starting web host
+2021-03-09 16:14:53.926 +08:00 [INF] Starting web host
+2021-03-09 16:15:12.341 +08:00 [INF] Starting web host
+2021-03-09 16:16:58.859 +08:00 [INF] Starting web host
+2021-03-09 16:19:10.951 +08:00 [INF] Starting web host
+2021-03-09 16:23:56.696 +08:00 [INF] Starting web host
+2021-03-09 16:33:26.921 +08:00 [INF] Starting web host
+2021-03-09 16:33:49.732 +08:00 [INF] HTTP GET /index.html responded 200 in 203.7219 ms
+2021-03-09 16:33:50.250 +08:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 96.2018 ms
+2021-03-09 16:33:57.801 +08:00 [INF] Starting web host
+2021-03-09 16:45:28.126 +08:00 [INF] Starting web host
+2021-03-09 16:45:35.425 +08:00 [INF] HTTP GET /index.html responded 200 in 245.9662 ms
+2021-03-09 16:45:35.904 +08:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 77.5812 ms
+2021-03-09 16:46:19.038 +08:00 [INF] Starting web host
+2021-03-09 16:53:18.955 +08:00 [INF] Starting web host
+2021-03-09 16:53:47.505 +08:00 [INF] HTTP GET /index.html responded 200 in 235.3512 ms
+2021-03-09 16:53:47.993 +08:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 68.3760 ms
+2021-03-09 16:53:52.048 +08:00 [ERR] 测试
+2021-03-09 16:53:52.155 +08:00 [ERR] No service for type 'Dust.MinCore.Server.IUserInfoServer' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinder.BindModelAsync(ModelBindingContext bindingContext)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2021-03-09 16:53:52.282 +08:00 [ERR] HTTP GET /Home responded 500 in 265.3746 ms
+2021-03-09 16:54:21.529 +08:00 [INF] Starting web host
+2021-03-09 16:54:26.328 +08:00 [INF] HTTP GET /index.html responded 200 in 213.6291 ms
+2021-03-09 16:54:26.591 +08:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 64.5339 ms
+2021-03-09 16:55:22.281 +08:00 [INF] Starting web host
+2021-03-09 17:04:58.603 +08:00 [INF] Starting web host
+2021-03-09 17:07:26.741 +08:00 [INF] Starting web host
+2021-03-09 17:30:22.647 +08:00 [INF] Starting web host
+2021-03-09 17:40:55.923 +08:00 [INF] Starting web host
+2021-03-09 17:41:45.028 +08:00 [INF] Starting web host
+2021-03-09 17:41:51.163 +08:00 [FTL] Host terminated unexpectedly
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: Dust.MinCore.Server.IUserInfoServer Lifetime: Scoped ImplementationType: Dust.MinCore.Server.UserInfoServer': Unable to resolve service for type 'Dust.MinCore.Repository.IUserInfoRepository' while attempting to activate 'Dust.MinCore.Server.UserInfoServer'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: Dust.MinCore.Server.IUserInfoServer Lifetime: Scoped ImplementationType: Dust.MinCore.Server.UserInfoServer': Unable to resolve service for type 'Dust.MinCore.Repository.IUserInfoRepository' while attempting to activate 'Dust.MinCore.Server.UserInfoServer'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Dust.MinCore.Repository.IUserInfoRepository' while attempting to activate 'Dust.MinCore.Server.UserInfoServer'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.DefaultServiceProviderFactory.CreateServiceProvider(IServiceCollection containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at Dust.MinCore.Api.Program.Main(String[] args) in D:\net\MiniProgramApi\Dust.MinCore.Api\Program.cs:line 26
+2021-03-09 17:41:51.241 +08:00 [INF] Ending web host
+2021-03-09 17:42:05.615 +08:00 [INF] Starting web host

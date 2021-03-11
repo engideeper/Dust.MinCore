@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Dust.MinCore.Api</name>
+    </assembly>
+    <members>
+        <member name="M:Dust.MinCore.Api.Controllers.HomeController.Get(Dust.MinCore.Server.IUserInfoServer)">
+            <summary>
+            测试
+            </summary>
+            <returns> </returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Dust.MinCore.Models</name>
+    </assembly>
+    <members>
+        <member name="P:Dust.MinCore.Models.WeChat.AccessTokenModel.access_token">
+            <summary>
+            获取到的凭证
+            </summary>
+        </member>
+        <member name="P:Dust.MinCore.Models.WeChat.AccessTokenModel.expires_in">
+            <summary>
+            凭证有效时间，单位：秒。目前是7200秒之内的值。
+            </summary>
+        </member>
+        <member name="P:Dust.MinCore.Models.WeChat.Code2SessionModel.openid">
+            <summary>
+            用户唯一标识
+            </summary>
+        </member>
+        <member name="P:Dust.MinCore.Models.WeChat.Code2SessionModel.session_key">
+            <summary>
+            会话密钥
+            </summary>
+        </member>
+        <member name="P:Dust.MinCore.Models.WeChat.Code2SessionModel.unionid">
+            <summary>
+            用户在开放平台的唯一标识符，在满足 UnionID 下发条件的情况下会返回，详见 UnionID 机制说明。
+            </summary>
+        </member>
+        <member name="T:Dust.MinCore.Models.WeChat.EncryptedDataModel">
+            <summary>
+            解密encryptedData数据
+            </summary>
+        </member>
+        <member name="P:Dust.MinCore.Models.WeChat.ErrorModel.errcode">
+            <summary>
+            错误码
+            </summary>
+        </member>
+        <member name="P:Dust.MinCore.Models.WeChat.ErrorModel.errmsg">
+            <summary>
+            错误信息
+            </summary>
+        </member>
+    </members>
+</doc>
